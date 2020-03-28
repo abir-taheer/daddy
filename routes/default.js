@@ -8,7 +8,7 @@ const handleDefaultNavigation = (req, res) => {
 	let cache_age = 60 * 60 * 24 * 5;
 	res.set('Cache-Control', `public, max-age=${cache_age}`); // 5 days
 
-	res.render("index.html", req.og);
+	res.render("index.html", {og: req.og});
 };
 
 // Catch the index page before it is handled statically
