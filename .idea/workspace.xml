@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa13c72-66a1-4401-a940-ae37254eee80" name="Default Changelist" comment="created users model">
-      <change afterPath="$PROJECT_DIR$/database/migrations/20200401050144-create-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/users.js" afterDir="false" />
+    <list default="true" id="9fa13c72-66a1-4401-a940-ae37254eee80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sequelize.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/sequelize.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/20200401050144-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200401050144-create-users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/models/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioListeners/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ioListeners/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioListeners/join.js" beforeDir="false" afterPath="$PROJECT_DIR$/ioListeners/join.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengraph/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/opengraph/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test-server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,10 +47,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glass-ceiling" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -90,8 +99,16 @@
       <workItem from="1585378469684" duration="4654000" />
       <workItem from="1585467735561" duration="4801000" />
       <workItem from="1585614379137" duration="28000" />
-      <workItem from="1585702000844" duration="3990000" />
+      <workItem from="1585702000844" duration="6976000" />
     </task>
+    <task id="LOCAL-00001" summary="created users model">
+      <created>1585717487712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585717487712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,14 +120,14 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="124" width="860" height="856" key="CommitChangelistDialog2" timestamp="1585717461995">
+    <state x="558" y="124" width="860" height="856" key="CommitChangelistDialog2" timestamp="1585717484268">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="558" y="124" width="860" height="856" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1585717461995" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585715163232">
+    <state x="558" y="124" width="860" height="856" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1585717484268" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585721604412">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585715163232" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585721604412" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1585716180765">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -127,6 +144,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1585716180764" />
+    <state x="588" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585717498015">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1585717498015" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585614380339">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

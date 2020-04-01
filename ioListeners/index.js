@@ -1,10 +1,10 @@
 module.exports = (io) => {
 	io.on("connection", socket => {
-		console.log("someone connected");
+		console.log(`connection ${socket.id} connected`);
 		require("./join")(socket);
 
 		socket.on("disconnect", socket => {
-			console.log("someone disconnected");
+			console.log(`connection ${socket.id} disconnected`);
 		});
 	});
 };

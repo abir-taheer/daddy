@@ -1,5 +1,3 @@
-const expect = require('chai').expect;
-const request = require('request');
 const app = require("./../app");
 
 it('Does the server run without error', function (done) {
