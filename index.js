@@ -3,9 +3,9 @@ const cluster = require("cluster");
 const port = Number(process.env.PORT) || 3001;
 const app = require("./app");
 
-if ( process.env.NODE_ENV === "production" ) {
+if (process.env.NODE_ENV === "production") {
 
-	if(cluser.isMaster){
+	if (cluster.isMaster) {
 		console.log("Running production server. Now Spawning worker processes...");
 
 		const cpuCount = require("os").cpus().length;
@@ -15,7 +15,7 @@ if ( process.env.NODE_ENV === "production" ) {
 			cluster.fork();
 		}
 
-		cluster.on("exit",  (worker) => {
+		cluster.on("exit", (worker) => {
 
 			// Restart the dead process
 			console.log(`Worker ${worker.id} died. Restarting...`);

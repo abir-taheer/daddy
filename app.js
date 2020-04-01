@@ -34,11 +34,11 @@ sequelizeStore.sync();
 app.use(session);
 
 app.use(cookieParser(process.env.SESSION_SECRET || "some_semi_permanent_secret"));
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use(morgan(process.env.MORGAN_FORMAT || "dev", {
-	skip: (req, res) =>  res.statusCode < 400
+	skip: (req, res) => res.statusCode < 400
 }));
 
 io.set('transports', ['websocket']);
