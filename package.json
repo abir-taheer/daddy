@@ -23,6 +23,7 @@
     "body-parser": "latest",
     "connect-session-sequelize": "^6.1.1",
     "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
     "dotenv": "latest",
     "express": "latest",
     "express-session": "^1.17.0",
