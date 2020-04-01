@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa13c72-66a1-4401-a940-ae37254eee80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/cors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/20200401050144-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200401050144-create-users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/models/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioListeners/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ioListeners/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test-server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
