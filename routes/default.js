@@ -17,6 +17,6 @@ router.get("/", handleDefaultNavigation);
 
 router.use(express.static(path.resolve(__dirname, './../client/build')));
 
-router.get("*", handleDefaultNavigation);
+router.get("/{*splat}", handleDefaultNavigation);
 
 module.exports = router;

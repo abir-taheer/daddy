@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const url = require("url");
 
-router.get("*", (req, res, next) => {
+router.get("/{*splat}", (req, res, next) => {
 	req.og = {};
 	req.og.site_name = "Quicker Picker Upper";
 	req.og.title = "Error 404 - Page Not Found | Quicker Picker Upper";

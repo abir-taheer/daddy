@@ -16,7 +16,7 @@ router.get("/", (req, res, next) => {
 
 // Be able to print the open graph data if requested
 // MAKE SURE THIS HANDLER GOES AT THE VERY END
-router.get("*", (req, res, next) => {
+router.get("/{*splat}", (req, res, next) => {
 	if( typeof req.query.printOG !== "undefined" ){
 		res.json(req.og);
 	} else {

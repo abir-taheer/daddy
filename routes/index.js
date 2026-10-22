@@ -4,6 +4,6 @@ router.use(require("./cors"));
 
 router.use("/api", require("./api"));
 
-router.use("*", require("./default"));
+router.use(require("./default"));
 
 module.exports = router;
